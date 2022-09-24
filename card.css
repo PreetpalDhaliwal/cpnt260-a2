@@ -1,0 +1,42 @@
+.card {
+background-color: rgb(47, 79, 79);
+padding: 1rem;
+border: 1px solid #777;
+border-radius: ; .50rems;
+text-align: center; 
+}
+
+.card-header {
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  font-size: 1rem;
+}
+
+.card-footer {
+  margin-top: 2rem;
+}
+.btn {
+  background-color: tomato;
+  cursor: pointer;
+  color: white;
+  border: none
+  padding: 2rem 1rem
+  border-radius: .45em
+}
+
+.btn:hover, .btn:focus {
+  backround: rgb(0, 0, 0);
+}
+
+.btn.btn-outline:hover, .btn.btn-outline:focus {
+  backround: hsla(199, 100%, 34%, 0.739)
+}
+
+.card-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center; 
+}
